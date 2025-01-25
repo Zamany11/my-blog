@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 interface DetailsCardProps {
     image: string
     title: string
@@ -9,7 +11,7 @@ export default function DetailsCard({ image, title, name, description }: Details
     return (
         <div className="bg-gradient-to-br from-slate-200/70 to-green-100/80 hover:bg-slate-300 p-10 rounded-lg shadow-md">
         <div className="mb-4">
-          <img
+          <Image
             src={image}
             alt={name}
             className="w-12 h-12 rounded-full object-cover"
