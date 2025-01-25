@@ -1,6 +1,4 @@
-import Image from "next/image";
 import DetailsCard from "./components/DetailsCard";
-import Navbar from "./components/Navbar";
 import HowItWorks from "./components/HowItWorks";
 
 export default function Home() {
