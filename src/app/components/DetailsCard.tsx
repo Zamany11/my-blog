@@ -1,13 +1,15 @@
 import Image from "next/image";
 
 interface DetailsCardProps {
-    image: string
-    title: string
-    name: string
-    description: string
+    image: string;
+    title: string;
+    name: string;
+    description: string;
+    width: number;
+    height: number;
 }
 
-export default function DetailsCard({ image, title, name, description }: DetailsCardProps) {
+export default function DetailsCard({ image, title, name, description, width, height }: DetailsCardProps) {
     return (
         <div className="bg-gradient-to-br from-slate-200/70 to-green-100/80 hover:bg-slate-300 p-10 rounded-lg shadow-md">
         <div className="mb-4">
@@ -15,6 +17,8 @@ export default function DetailsCard({ image, title, name, description }: Details
             src={image}
             alt={name}
             className="w-12 h-12 rounded-full object-cover"
+            width={width}
+            height={height}
           />
           <div className="mt-4">
             <h2 className="font-bold text-xl text-black">{title}</h2> 

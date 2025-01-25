@@ -40,29 +40,35 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div>
           <DetailsCard 
-          image="https://static.vecteezy.com/system/resources/previews/025/210/773/original/check-mark-icon-transparent-background-checkmark-icon-approved-symbol-confirmation-sign-design-elements-checklist-positive-thinking-sign-correct-answer-verified-badge-flat-icon-png.png"
+          image="/good.webp"
           title="Step 1"
           name="Register"
           description="Register with your whatsapp number and get started"
+          width={100}
+          height={100}
           />
         </div>
 
         <div>
           <DetailsCard 
-          image="https://static.vecteezy.com/system/resources/previews/025/210/773/original/check-mark-icon-transparent-background-checkmark-icon-approved-symbol-confirmation-sign-design-elements-checklist-positive-thinking-sign-correct-answer-verified-badge-flat-icon-png.png"
+          image="/good.webp"
           title="Step 2"
           name="Link Whatsapp"
           description="Register with your whatsapp number and get started"
+          width={100}
+          height={100}
           />
         </div>
 
         <div>
           <DetailsCard 
-          image="https://static.vecteezy.com/system/resources/previews/025/210/773/original/check-mark-icon-transparent-background-checkmark-icon-approved-symbol-confirmation-sign-design-elements-checklist-positive-thinking-sign-correct-answer-verified-badge-flat-icon-png.png"
+          image="/good.webp"
           title="Step 3"
           name="Withdaraw"
           description="Register with your whatsapp number and get started"
-          />
+          width={100}
+          height={100}
+/>
         </div>
         </div>
         
