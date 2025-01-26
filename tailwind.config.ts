@@ -8,6 +8,20 @@ export default {
   ],
   theme: {
     extend: {
+      animation: {
+        marquee: 'marquee 25s linear infinite',
+        'zoom-in': 'zoomIn 1s ease-out forwards'
+      },
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' }
+        },
+        zoomIn: {
+          '0%': { transform: 'scale(0)', opacity: '0' },
+          '100%': { transform: 'scale(1)', opacity: '1' }
+        }
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
