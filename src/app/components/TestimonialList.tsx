@@ -20,19 +20,19 @@ export function TestimonialList() {
               />
             </div>
           ))}
-          {testimonials.map((testimonial) => (
-            <div 
-              key={`${testimonial.id}-duplicate`}
-              className="mx-4 w-[350px] flex-shrink-0"
-            >
-              <TestimonialCard
-                image={testimonial.image}
-                name={testimonial.name}
-                title={testimonial.title}
-                content={testimonial.content}
-              />
-            </div>
-          ))}
+            {testimonials.map((testimonial) => (
+              <div 
+                key={`${testimonial.id}-duplicate`}
+                className="mx-4 w-[350px] flex-shrink-0"
+              >
+                <TestimonialCard
+                  image={testimonial.image}
+                  name={testimonial.name}
+                  title={testimonial.title}
+                  content={testimonial.content}
+                />
+              </div>
+            ))}
         </div>
       </div>
     </div>

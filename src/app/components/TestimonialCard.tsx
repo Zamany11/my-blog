@@ -16,7 +16,7 @@ interface TestimonialProps {
             className="w-12 h-12 rounded-full object-cover"
           />
           <div className="ml-4">
-            <h4 className="font-bold">{name}</h4>
+            <h4 className="font-bold text-black">{name}</h4>
             <p className="text-gray-600 text-sm">{title}</p>
           </div>
         </div>

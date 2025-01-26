@@ -1,6 +1,7 @@
 import AnimatedHeading from "./components/AnimatedHeading";
 import DetailsCard from "./components/DetailsCard";
 import HowItWorks from "./components/HowItWorks";
+import StatsSection from "./components/Statssection";
 import { TestimonialList } from "./components/TestimonialList";
 
 export default function Home() {
@@ -110,6 +111,9 @@ export default function Home() {
         </div>
         <div>
           <TestimonialList />
+        </div>
+        <div>
+          <StatsSection />
         </div>
       </section>
     </main>

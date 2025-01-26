@@ -9,13 +9,18 @@ export default {
   theme: {
     extend: {
       animation: {
-        marquee: 'marquee 25s linear infinite',
+        marquee: 'marquee 30s linear infinite',
+        marquee2: 'marquee2 40s linear infinite',
         'zoom-in': 'zoomIn 1s ease-out forwards'
       },
       keyframes: {
         marquee: {
           '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(-50%)' }
+          '100%': { transform: 'translateX(-100%)' }
+        },
+        marquee2: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0%)' }
         },
         zoomIn: {
           '0%': { transform: 'scale(0)', opacity: '0' },

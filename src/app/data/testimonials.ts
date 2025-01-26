@@ -9,52 +9,52 @@ export interface   Testimonial {
 export const testimonials: Testimonial[] = [
   {
     id: 1,
-    image: '/testimonials/user1.jpg',
-    name: 'John Doe',
+    image: '/IMG_9579.JPG',
+    name: 'John Wick',
     title: 'Software Engineer',
-    content: 'This platform has transformed how we handle our projects.'
+    content: 'This platform has transformed how we handle our earnings.'
   },
   {
     id: 2,
-    image: '/testimonials/user2.jpg',
+    image: '/IMG_9580.JPG',
     name: 'Jane Smith',
     title: 'Product Manager',
     content: 'Incredible tools and fantastic support team.'
   },
   {
     id: 3,
-    image: '/testimonials/user2.jpg',
-    name: 'Jane Smith',
-    title: 'Product Manager',
-    content: 'Incredible tools and fantastic support team.'
+    image: '/IMG_9581.JPG',
+    name: 'Michael Sammos',
+    title: 'Entrepreneur',
+    content: 'Makes earning real cash easy and reliable.'
   },
   {
     id: 4,
-    image: '/testimonials/user2.jpg',
-    name: 'Jane Smith',
-    title: 'Product Manager',
-    content: 'Incredible tools and fantastic support team.'
+    image: '/IMG_9582.JPG',
+    name: 'Vicky James',
+    title: 'Sales Executive',
+    content: 'I earn good passive income from GoShare.'
   },
   {
     id: 5,
-    image: '/testimonials/user2.jpg',
-    name: 'Jane Smith',
-    title: 'Product Manager',
-    content: 'Incredible tools and fantastic support team.'
+    image: '/IMG_9583.JPG',
+    name: 'Ardrean Mike',
+    title: 'Student',
+    content: 'GoShare helps me sort out my school bills.'
   },
   {
     id: 6,
-    image: '/testimonials/user2.jpg',
-    name: 'Jane Smith',
-    title: 'Product Manager',
-    content: 'Incredible tools and fantastic support team.'
+    image: '/IMG_9584.JPG',
+    name: 'Bk JimJay',
+    title: 'Graphics Designer',
+    content: 'Great work.'
   },
   {
     id: 7,
-    image: '/testimonials/user2.jpg',
-    name: 'Jane Smith',
-    title: 'Product Manager',
-    content: 'Incredible tools and fantastic support team.'
+    image: '/IMG_9585.JPG',
+    name: 'Mark Zhazi',
+    title: 'Psychologist',
+    content: 'Wonderful platform for seamless earnings'
   },
   // Add more testimonials as needed
 ]
