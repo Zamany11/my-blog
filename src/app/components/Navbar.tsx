@@ -8,15 +8,15 @@ const Navbar = () => {
           <Link href="/">Zads Media</Link>
         </h1>
         <div className="flex space-x-4">
-          <Link href="/" className="hover:underline hover:text-green-600">
+          <Link href="/" className="hover:underline hover:text-yellow-400">
             Home
           </Link>
-          <Link href="/recipes" className="hover:underline hover:text-green-600">
+          <Link href="#contact" className="hover:underline hover:text-yellow-400">
             Contact Us
           </Link>
-          <Link href="/about" className="hover:underline hover:text-green-600">
-            About
-          </Link>
+            <Link href="#faq" className="hover:underline hover:text-yellow-400">
+            FAQ
+            </Link>
         </div>
       </div>
     </nav>
