@@ -13,10 +13,10 @@ export default function CoinImage() {
             </div>
             <div>
                 <Image 
-                src="/coin image.webp"
+                src={"/coin image.webp"}
                 width={500}
                 height={500}
-                alt="Coin Image"
+                alt={"Coin Image"}
                 className="rounded-lg"
                 />
             </div>
