@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 // components/TestimonialCard.tsx
 interface TestimonialProps {
     image: string
@@ -10,7 +12,7 @@ interface TestimonialProps {
     return (
       <div className="bg-white p-6 rounded-lg shadow-md">
         <div className="flex items-center mb-4">
-          <img
+          <Image
             src={image}
             alt={name}
             className="w-12 h-12 rounded-full object-cover"

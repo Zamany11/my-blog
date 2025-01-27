@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 // components/Footer.tsx
 export default function Footer() {
     return (
@@ -36,9 +38,9 @@ export default function Footer() {
             <div>
               <h4 className="text-white font-bold mb-4">Follow Us</h4>
               <div className="flex space-x-4">
-                <a href="#footer" className="hover:text-white transition-colors">Twitter</a>
-                <a href="#footer" className="hover:text-white transition-colors">Facebook</a>
-                <a href="#footer" className="hover:text-white transition-colors">Instagram</a>
+                <Link href="#footer" className="hover:text-white transition-colors">Twitter </Link>
+                <Link href="#footer" className="hover:text-white transition-colors">Facebook </Link>
+                <Link href="#footer" className="hover:text-white transition-colors">Instagram </Link>
               </div>
             </div>
           </div>
