@@ -1,7 +1,6 @@
 import AnimatedHeading from "./components/AnimatedHeading";
 import CoinImage from "./components/CoinImage";
 import ContactForm from "./components/ContactForm";
-import DetailsCard from "./components/DetailsCard";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
 import HowItWorks from "./components/HowItWorks";

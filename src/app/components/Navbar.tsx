@@ -6,7 +6,7 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <nav className="bg-slate-950 p-4">
+    <nav className="bg-slate-950/95 p-4 sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo/Brand */}
         <div className="text-white font-bold text-xl">
