@@ -16,6 +16,8 @@ interface TestimonialProps {
             src={image}
             alt={name}
             className="w-12 h-12 rounded-full object-cover"
+            width={200}
+            height={200}
           />
           <div className="ml-4">
             <h4 className="font-bold text-black">{name}</h4>

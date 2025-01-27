@@ -47,7 +47,7 @@ export default function FAQ() {
 
   return (
     <div ref={ref} className="max-w-4xl mx-auto px-4 py-16">
-      <h2 className={`text-4xl font-bold text-center mb-12 transition-all duration-500 ${
+      <h2 className={`text-4xl text-gray-300 font-bold text-center mb-12 transition-all duration-500 ${
         inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
       }`}>
         Frequently Asked Questions
@@ -61,7 +61,7 @@ export default function FAQ() {
           >
             <button
               onClick={() => setActiveQuestion(activeQuestion === index ? null : index)}
-              className="flex justify-between items-center w-full py-4 text-left"
+              className="flex text-gray-400 justify-between items-center w-full py-4 text-left"
             >
               <span className="font-medium text-lg">{faq.question}</span>
               <span className={`transform transition-transform duration-200 ${

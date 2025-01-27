@@ -23,10 +23,10 @@ export default function StatsSection() {
       {/* Countries */}
       <div className="text-center">
         <div className="text-4xl md:text-5xl font-bold text-white flex justify-center items-center gap-1">
-          {inView && <CountUp end={150} duration={2.5} />}
-          <span>+</span>
+          {inView && <CountUp end={80} duration={2.5} />}
+          <span>M+</span>
         </div>
-        <p className="text-gray-400 mt-2">Countries</p>
+        <p className="text-gray-400 mt-2">Paid</p>
       </div>
 
       {/* Processed */}
