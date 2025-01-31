@@ -17,7 +17,7 @@ export default function StatsSection() {
           {inView && <CountUp end={99.0} decimals={1} duration={2.5} />}
           <span>%</span>
         </div>
-        <p className="text-gray-400 mt-2">Uptime</p>
+        <p className="text-gray-400 mt-2">Trusted</p>
       </div>
 
       {/* Countries */}
