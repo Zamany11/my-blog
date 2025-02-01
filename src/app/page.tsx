@@ -59,6 +59,7 @@ export default function Home() {
             <br />
           </p>
 
+          
           <a href="https://server.wsgo.org/go/80308906">
             <button className="bg-gradient-to-br from-blue-500 to-purple-500 hover:bg-purple-600 text-white text-2xl py-2 px-4 rounded-sm">
               Get Started
