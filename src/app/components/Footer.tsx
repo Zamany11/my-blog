@@ -46,7 +46,7 @@ export default function Footer() {
           </div>
   
           <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-            <p>&copy; {new Date().getFullYear()} Zamany Digital Services. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Developed by Zitech. All rights reserved.</p>
           </div>
         </div>
       </footer>
