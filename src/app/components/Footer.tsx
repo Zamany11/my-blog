@@ -46,7 +46,13 @@ export default function Footer() {
           </div>
   
           <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-            <p>&copy; {new Date().getFullYear()} Developed by Zitech. All rights reserved.</p>
+           <Link href="https://wa.me/message/SYION5AVZPNSK1">
+              <p>&copy; {new Date().getFullYear()} Developed by 
+                <span className="text-blue-300 hover:underline"> Zamany Web Dev</span> 
+                  <br /> 
+                  All rights reserved.
+              </p>
+                </Link>
           </div>
         </div>
       </footer>
